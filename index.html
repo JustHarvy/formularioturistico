@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Formulario turístico</h1>
+<p>Completa estos datos para planificar tu viaje.</p>
+
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+  <label for="email">Correo electrónico:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  
+  <label for="phone">Teléfono:</label><br>
+  <input type="tel" id="phone" name="phone"><br><br>
+  
+  <label for="country">País de residencia:</label><br>
+  <input type="text" id="country" name="country"><br><br>
+
+  <p>Motivo del viaje (puedes elegir más de uno):</p>
+  <input type="checkbox" id="motivo1" name="motivo1" value="Investigacion">
+  <label for="motivo1"> Investigación</label><br>
+  <input type="checkbox" id="motivo2" name="motivo2" value="Trabajo">
+  <label for="motivo2"> Trabajo</label><br>
+  <input type="checkbox" id="motivo3" name="motivo3" value="Turismo">
+  <label for="motivo3"> Turismo</label><br><br>
+
+  <p>Preferencia de vuelo:</p>
+  <input type="radio" id="clase1" name="flight_class" value="Economica">
+  <label for="clase1"> Económica</label><br>
+  <input type="radio" id="clase2" name="flight_class" value="Ejecutiva">
+  <label for="clase2"> Ejecutiva</label><br>
+  <input type="radio" id="clase3" name="flight_class" value="Primera">
+  <label for="clase3"> Primera Clase</label><br><br>
+  
+  <label for="destino">Destino:</label><br>
+  <input type="text" id="destino" name="destino"><br><br>
+  
+  <label for="llegada">Fecha de llegada:</label><br>
+  <input type="date" id="llegada" name="llegada"><br><br>
+  
+  <label for="salida">Fecha de salida:</label><br>
+  <input type="date" id="salida" name="salida"><br><br>
+  
+  <label for="viajeros">Número de viajeros:</label><br>
+  <input type="number" id="viajeros" name="viajeros" min="1" value="1"><br><br>
+  
+  <label for="comentarios">Comentarios o necesidades especiales:</label><br>
+  <textarea id="comentarios" name="comentarios"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
